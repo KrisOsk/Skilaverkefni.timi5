@@ -1,0 +1,9 @@
+header{background-color: darkred; padding: 35px; display: flex;}
+.logo{ border-radius: 90px;}
+.header-left{display:flex; gap: 20px; padding: 20px}
+.header-right{display:flex; gap: 20px; align-items: center;}
+body{margin: 0px;}
+section{padding: 20px; background-color: azure;}
+h1{font-family: Arial, Helvetica, sans-serif;}
+.myndir{display: flex; overflow: scroll;}
+.myndir img{width: 150px;}
