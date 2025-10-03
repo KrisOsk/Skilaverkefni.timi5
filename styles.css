@@ -1,14 +1,18 @@
-header{background-color: darkred; padding: 35px; display: flex;}
+header{background-color: darkred; padding: 35px; display: flex;color: aliceblue;}
 .logo{ border-radius: 90px;}
 .header-left{display:flex; gap: 20px; padding: 20px}
 .header-right{display:flex; gap: 20px; align-items: center;}
 body{margin: 0px;}
-.about{text-align: center; align-items: center;}
-section{padding: 20px; background-color: beige;}
+.column{column-count: 3;background-color: beige;column-rule: 1px solid darkred;padding: 2px; overflow: hidden;}
+.about{text-align: center; align-items: center; gap:10px}
+section{padding: 20px; break-inside: avoid;break-after: always;}
 h1{font-family: Arial, Helvetica, sans-serif;}
 h2{text-align: center;}
-table, th,td{border-style: 2px solid;border-color: darkred;}
+table, th,td{border-style: solid;border-color: darkred; text-align: center;}
 .myndir{display: flex; overflow: scroll;}
-.myndir img{width: 150px;}
+.myndir img{width: 150px; margin: auto;}
 .listi{display: flex; justify-content: space-evenly;}
-footer{padding: 40px; align-items: center;}
+.skraning{display: flex; background-color: rgba(193, 3, 3, 0.699); padding: 20px;margin: 20px;}
+input[type=name]{width: 200px; border-radius: 5px;border: 2px;}
+button{background-color: lightblue; border-radius: 100px;}
+footer{padding: 40px; align-items: center;background-color: darkred;color: aliceblue;}
